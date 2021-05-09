@@ -26,6 +26,9 @@ namespace gerikullanim
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContext<gerikullanimContext>(options =>
+                    options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+
 
         }
 

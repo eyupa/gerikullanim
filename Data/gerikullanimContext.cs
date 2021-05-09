@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-    using gerikullanim.Models;
+using gerikullanim.Models;
     
 namespace gerikullanim.Data
 {
@@ -10,7 +10,6 @@ namespace gerikullanim.Data
         public gerikullanimContext(DbContextOptions<gerikullanimContext> options)
         : base(options)
         {
-
         }
         public DbSet<Duyuru> Duyurular { get; set; }
         public DbSet<Kullanici> Kullanicilar { get; set; }
