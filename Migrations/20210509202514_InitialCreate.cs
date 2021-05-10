@@ -30,17 +30,17 @@ namespace gerikullanim.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     DuyuruAdi = table.Column<string>(type: "TEXT", nullable: true),
                     DuyuruAciklama = table.Column<string>(type: "TEXT", nullable: true),
-                    kullaniciIdId = table.Column<int>(type: "INTEGER", nullable: true)
+                    KullaniciId = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Duyurular", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Duyurular_Kullanicilar_kullaniciIdId",
-                        column: x => x.kullaniciIdId,
+                        name: "FK_Duyurular_Kullanicilar_KullaniciId",
+                        column: x => x.KullaniciId,
                         principalTable: "Kullanicilar",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -64,9 +64,9 @@ namespace gerikullanim.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Duyurular_kullaniciIdId",
+                name: "IX_Duyurular_KullaniciId",
                 table: "Duyurular",
-                column: "kullaniciIdId");
+                column: "KullaniciId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Resimler_DuyuruId",

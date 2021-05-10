@@ -15619,6 +15619,16 @@
   "RootNamespace": "gerikullanim",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\eyup_\\prjs\\gerikullanim\\Views\\Duyurular\\Edit.cshtml",
+      "TargetPath": "Views\\Duyurular\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\eyup_\\prjs\\gerikullanim\\Views\\Duyurular\\Details.cshtml",
+      "TargetPath": "Views\\Duyurular\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\eyup_\\prjs\\gerikullanim\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -15629,8 +15639,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\eyup_\\prjs\\gerikullanim\\Views\\Duyurular\\Index.cshtml",
+      "TargetPath": "Views\\Duyurular\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\eyup_\\prjs\\gerikullanim\\Views\\Kullanicilar\\Index.cshtml",
+      "TargetPath": "Views\\Kullanicilar\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\eyup_\\prjs\\gerikullanim\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\eyup_\\prjs\\gerikullanim\\Views\\Kullanicilar\\Delete.cshtml",
+      "TargetPath": "Views\\Kullanicilar\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\eyup_\\prjs\\gerikullanim\\Views\\Duyurular\\Delete.cshtml",
+      "TargetPath": "Views\\Duyurular\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15639,13 +15669,33 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\eyup_\\prjs\\gerikullanim\\Views\\Kullanicilar\\Edit.cshtml",
+      "TargetPath": "Views\\Kullanicilar\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\eyup_\\prjs\\gerikullanim\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\eyup_\\prjs\\gerikullanim\\Views\\Kullanicilar\\Details.cshtml",
+      "TargetPath": "Views\\Kullanicilar\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\eyup_\\prjs\\gerikullanim\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\eyup_\\prjs\\gerikullanim\\Views\\Kullanicilar\\Create.cshtml",
+      "TargetPath": "Views\\Kullanicilar\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\eyup_\\prjs\\gerikullanim\\Views\\Duyurular\\Create.cshtml",
+      "TargetPath": "Views\\Duyurular\\Create.cshtml",
       "FileKind": "mvc"
     },
     {

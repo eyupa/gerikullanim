@@ -56,7 +56,7 @@ namespace gerikullanim
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Duyurular}/{action=Index}/{id?}");
             });
         }
     }
